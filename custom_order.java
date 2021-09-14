@@ -65,11 +65,17 @@ public class custom_order {
         //TEST CODE
 
         // STEP 7 PROMPT USER TO CHOOSE FILLING
+        System.out.println("What type of FILLING do you want? ");
+        System.out.println("Mocha, Mint, Lemon, Caramel or Raspberry");
+        fillingType = scanner.nextLine();
 
 
         // TEST CODE
 
         // STEP 8 PROMPT USER TO CHOOSE TOPPINGS
+        System.out.println("What type of TOPPINGS do you want? ");
+        System.out.println("Sprinkles, Cinnamon, Cocoa, Nuts");
+        toppings = scanner.nextLine();
 
 
         // TEST CODE
