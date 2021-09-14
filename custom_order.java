@@ -35,12 +35,23 @@ public class custom_order {
         // TEST CODE
 
         // STEP 4 DISPLAY MENU
-
+        System.out.println("_______________________________________________");
+        System.out.println("        MENU         QUANTITY    BASE COST  ");
+        System.out.println("_______________________________________________");
+        System.out.println("        Cake                     1            $15     ");
+        System.out.println("   Set of Cupcakes       6            $15     ");
+        System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
+        System.out.println("Frostings (vanilla, chocolate, strawberry, coco)");
+        System.out.println("Fillings (mocha, mint, lemon, caramel, vanilla)");
+        System.out.println("Toppings (sprinkles, cinnamon, cocoa, nuts)");
+        System.out.println("_______________________________________________");
 
 
         // TEST CODE
 
         // STEP 5 PROMPT USER TO ORDER
+        System.out.println("Do you want CUPCAKES or a CAKE?");
+        itemOrder = scanner.nextLine();
 
 
         // TEST CODE
